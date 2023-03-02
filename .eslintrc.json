@@ -1,0 +1,26 @@
+{
+    "env": {
+        "browser": true,
+        "node": true,
+        "es2021": true
+    },
+    "extends":[ 
+        "plugin:cypress/recommended"
+    ],
+    "rules": {
+        "camelcase": "error",
+        "indent": ["error", 4, { "SwitchCase": 1 }],
+        "no-multiple-empty-lines": ["error", { "max": 2, "maxEOF": 0 }],
+        "operator-assignment": ["warn", "always"],
+        "space-infix-ops": "warn",
+        "space-before-blocks": "warn",
+        "space-in-parens": "warn",
+        "keyword-spacing": "warn",
+        "lines-around-comment": ["warn", { "beforeBlockComment": true, "beforeLineComment": true, "allowBlockStart": true }],
+        "spaced-comment": "warn",
+        "newline-per-chained-call": ["warn", { "ignoreChainWithDepth": 3 }],
+        "quotes": ["warn", "single"],
+        "newline-after-var": "off",
+        "arrow-spacing": "warn"
+    }
+}
