@@ -1,8 +1,9 @@
 export const baseHelpers = {
 
-    // transactionTypeV3 - Retorna registros de transações financeiras
-    transactionTypeV3: function () {
-        const endpoint = '/api/transaction/v3/transaction-type'
+    // Get - api/deck/new/shuffle/?deck_count=1 - retorna o número de baralhos que você deseja usar. O padrão é 1
+    getShuffleTheCards: function() {
+        const endpoint = '/api/deck/new/shuffle/?deck_count=1'
+        
         return endpoint
     }
 }

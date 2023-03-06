@@ -6,7 +6,7 @@ module.exports = defineConfig({
         viewportHeight: 1080,
         viewportWidth: 1920,
         video: false,
-        baseUrl: '',
+        baseUrl: 'https://deckofcardsapi.com',
 
         setupNodeEvents(on, config) {
             // implement node event listeners here
